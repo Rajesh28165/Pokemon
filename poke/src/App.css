@@ -1,0 +1,44 @@
+.App{
+  background: #d17878;
+  width: 60%;
+  height: 80%;
+  margin:0 20%;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.container{
+  padding:10%;
+  margin:5% 10%;
+}
+
+.but{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  width: 100px;
+  height: 30px;
+  padding:5px;
+  background-color:rgb(48, 87, 216);
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+
+}
+
+select {
+  padding:5px;
+  background: #ac9898;
+  border-radius: 5px;
+}
+
+p{
+  font-weight: bolder;
+  font-size: large;
+  color: rgb(228, 189, 15);
+}
+
+button:hover{
+  background-color:blueviolet
+}
